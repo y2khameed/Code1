@@ -19,6 +19,7 @@
 		B10ACD5316791C5E0077BE92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B10ACD5216791C5E0077BE92 /* ViewController.m */; };
 		B10ACD5616791C5E0077BE92 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B10ACD5416791C5E0077BE92 /* ViewController_iPhone.xib */; };
 		B10ACD5916791C5F0077BE92 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B10ACD5716791C5F0077BE92 /* ViewController_iPad.xib */; };
+		B10ACD6216791EAA0077BE92 /* testingObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = B10ACD6116791EAA0077BE92 /* testingObjects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		B10ACD5216791C5E0077BE92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B10ACD5516791C5E0077BE92 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		B10ACD5816791C5F0077BE92 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		B10ACD6016791EAA0077BE92 /* testingObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testingObjects.h; sourceTree = "<group>"; };
+		B10ACD6116791EAA0077BE92 /* testingObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testingObjects.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,7 @@
 		B10ACD3F16791C5E0077BE92 /* test1 */ = {
 			isa = PBXGroup;
 			children = (
+				B10ACD5F16791E840077BE92 /* New Control */,
 				B10ACD4816791C5E0077BE92 /* AppDelegate.h */,
 				B10ACD4916791C5E0077BE92 /* AppDelegate.m */,
 				B10ACD5116791C5E0077BE92 /* ViewController.h */,
@@ -108,6 +112,15 @@
 				B10ACD4F16791C5E0077BE92 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B10ACD5F16791E840077BE92 /* New Control */ = {
+			isa = PBXGroup;
+			children = (
+				B10ACD6016791EAA0077BE92 /* testingObjects.h */,
+				B10ACD6116791EAA0077BE92 /* testingObjects.m */,
+			);
+			path = "New Control";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +193,7 @@
 				B10ACD4616791C5E0077BE92 /* main.m in Sources */,
 				B10ACD4A16791C5E0077BE92 /* AppDelegate.m in Sources */,
 				B10ACD5316791C5E0077BE92 /* ViewController.m in Sources */,
+				B10ACD6216791EAA0077BE92 /* testingObjects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
